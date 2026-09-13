@@ -5,7 +5,6 @@ import { VStack } from '@astryxdesign/core/Layout'
 import { Text, Heading } from '@astryxdesign/core/Text'
 import { Layout } from './components/Layout'
 import { ScrollToTop } from './components/ScrollToTop'
-import { Home } from './routes/Home'
 import { Work } from './routes/Work'
 import { CaseDetail } from './routes/CaseDetail'
 import { SelectedWork } from './routes/SelectedWork'
@@ -34,7 +33,7 @@ export default function App() {
         <ScrollToTop />
         <Routes>
           <Route element={<Layout />}>
-            <Route index element={<Home />} />
+            <Route index element={<SelectedWork />} />
             <Route path="work" element={<Work />} />
             <Route path="work/:slug" element={<CaseDetail />} />
             <Route path="selected-work" element={<SelectedWork />} />

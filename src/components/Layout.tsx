@@ -31,7 +31,7 @@ export function Layout() {
     <>
       <header className={`site-header${hidden ? ' site-header--hidden' : ''}`}>
         <div className="page site-header__inner">
-          <Link to="/selected-work" className="site-brand">
+          <Link to="/" className="site-brand">
             {profile.name}
           </Link>
           <div className="site-nav">

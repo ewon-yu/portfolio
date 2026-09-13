@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OMC
+.omc/
+**/.omc/
+
+# 진행 메모(원하면 유지)
+# STATUS.md
+.shots/
+
+# ────────────────────────────────────────────────
+# 민감 자료 — 절대 커밋 금지 (NDA / 개인정보)
+#   GA·뷰저블 리포트, 개인평가·목표 설문, 연봉계약서, 리더 평가 원본 등.
+#   파생 요약(비율·인용구만)은 docs/CONTENT-PLAN.md 에 있음.
+#   원본은 아래 _private/ (이 머신 로컬) 또는 repo 밖 클라우드 동기화 폴더에만.
+/_private/
+_private/
+*.xlsx
+*.xls
+# 원본 자료 export (스크린용 이미지는 public/work/ 로, NDA 확인 후)
+/_source/
+/materials/
+docs/CONTENT-PLAN.md

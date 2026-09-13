@@ -28,7 +28,7 @@ const ArrowUpRight = () => (
 export function SelectedWorkCard({ project }: { project: SelectedWorkProject }) {
   return (
     <Link
-      to={`/selected-work/${project.slug}`}
+      to={`/${project.slug}`}
       className={`work-card${project.featured ? ' work-card--featured' : ''}`}
     >
       <div className="work-card__frame">

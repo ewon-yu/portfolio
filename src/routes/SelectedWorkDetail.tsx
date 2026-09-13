@@ -30,7 +30,7 @@ export function SelectedWorkDetail() {
       <section className="page section">
         <div style={{ display: 'grid', gap: 16 }}>
           <h1 className="case-hero__title">페이지를 찾을 수 없습니다</h1>
-          <Link to="/selected-work" className="back-link">
+          <Link to="/" className="back-link">
             ← Work로 돌아가기
           </Link>
         </div>

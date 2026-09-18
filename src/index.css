@@ -333,7 +333,7 @@ a {
 }
 
 .cs--wide .cs__p {
-  font-size: clamp(9px, 1.05vw, 11px);
+  font-size: clamp(14px, 1.3vw, 16px);
 }
 
 /* 한 블록 안에서 줄바꿈된 여러 문장(문단)을 하나의 그룹으로 붙여 보이게
